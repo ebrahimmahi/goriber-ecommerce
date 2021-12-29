@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+   margin: 50px 0px;
+}
+a {
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    font-weight: bold;
+    letter-spacing: 1;
+    font-size: xx-large;
+}
+.search-box{
+    position: fixed;
+    right: 80px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    height: 45px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+    box-sizing: border-box;
+    border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 20px;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+.search-box input::placeholder{
+    color: #1d1d1d;
+	font-weight:400;
+	letter-spacing: 2px;
+	font-size: 0.8rem;
+	font-family: poppins;
+}
+.icon-section{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    transform: translateY(-50%);
+    border-radius: 25px;
+}
+.icon-section a{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section a i{
+    color: rgba(39,39,39,0.80);
+    font-size: 15px;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #00acee;
+}
+.fa-instagram:hover{
+    color: #3f729b;
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+.header-section{
+    margin: 100px 0px;
+}
+.header-section img{
+    height: 300px;
+}
+.header-section{
+    color: #3D3D4A;
+}
+.header-section h1{
+    font-size: 4rem;
+    letter-spacing: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.header-section h2{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 100px;
+}
+span{
+    color: #7A72FF;
+}
+ button{
+    margin-left: 100px;
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    color: #fff;
+    border: none;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+}
+button:hover{
+    background-color: #6e64ff;
+    transition: all ease 0.5s;
+}
+.product{
+    width:85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    margin: 30px auto;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+.product-head h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color:#323543;
+    margin: 30px 0px 50px 0px;
+    
+}
+.product-box{
+    width:250px;
+	height: 330px;
+    margin:25px auto;
+    text-align: center;
+    padding: 70px 5px;
+    border-radius: 10px;
+}
+.product-box img{
+    height: 180px;
+}
+.product-box p{
+    color:#4d4d4d70;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+}
+.product-box a{
+    color:#2c2c2c;
+    font-size: 1rem;
+}
+.product-box:hover{
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+#btn{
+    display: none;
+    color: #fff;
+    background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    animation: fade 0.2s;
+    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    height: 40px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(34%);
+}
+.product-box:hover #btn{
+    display: flex;
+}
+.product-box:hover a:last-child{
+    background-color: #fff;
+    transition: all ease 0.3s;
+}
+.about{
+    margin: 100px 0px;
+}
+.about-header h1{
+    font-weight: 700;
+    color: #333333;
+    margin: 0px;
+    font-size: 3rem;
+}
+.about-header h4{
+    font-weight: 400;
+    color: #333333;
+    margin: 10px 0px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.about-header p{
+    color: #bdbdbd;
+    font-size:;
+}
+.about-img img{
+    height: 350px;
+}
+.notification{
+    margin: 100px 0px;;
+}
+.footer{
+    background-color: black;
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    border-top: 3px solid rgb(44, 43, 43);
+}
+.notification{
+    text-align: center;
+}
+.notification h4{
+    font-weight: bolder;
+    color: black;
+}
+.notification-input{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    margin: 25px 0px;
+    border-radius: 50px;
+    padding: 10px 0px ;
+}
+.notification-input input{
+    border: none;
+    outline: none;
+}
+.notification-input button{
+    background-color: rgb(0,0,0);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.notification-input button:hover{
+    background-color: #6e64ff;
+}

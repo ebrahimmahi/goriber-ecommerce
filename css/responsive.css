@@ -1,0 +1,149 @@
+   /*		Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+    }
+    
+    
+    
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    
+    @media only screen and (max-width: 767px) {
+        .header-section img{
+                height: 300px;
+        }
+        .header-section h1{
+                font-size: 4rem;
+                letter-spacing: 25px;
+                font-weight: bold;
+                margin-left: 100px;
+        }
+        .header-section h2{
+                font-size: 4rem;
+                font-weight: bold;
+                margin-left: 100px;
+        }
+        .about-img img{
+                height: 350px;
+        }
+        .about-header h1{
+                font-weight: 700;
+                color: #333333;
+                margin: 0px;
+                font-size: 3rem;
+        }
+        .about-header h4{
+                font-weight: 400;
+                color: #333333;
+                margin: 10px 0px;
+                font-size: 2rem;
+                letter-spacing: 3px;
+        }
+        .about-header p{
+                color: #bdbdbd;
+        }
+    }
+    
+    
+    
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+       .header-section img{
+               height: 280px;
+       }
+       .header-section h1{
+            font-size: 3rem;
+            letter-spacing: 19px;
+            font-weight: bold;
+            margin-left: 100px;
+        }
+       .header-section h2{
+            font-size: 3rem;
+            font-weight: bold;
+            margin-left: 100px;
+        }
+        .about-img img{
+                height: 255px;
+        }
+        .about-header h1{
+                font-weight: 600;
+                color: #333333;
+                margin: 0px;
+                font-size: 2.5rem;
+        }
+        .about-header h4{
+                font-weight: 300;
+                color: #333333;
+                margin: 10px 0px;
+                font-size: 1.5rem;
+                letter-spacing: 2px;
+        }
+        .about-header p{
+                color: #bdbdbd;
+                font-size: 15px;
+        }
+    }
+    
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+                .header-section img{
+                        height: 230px;
+                }
+                .header-section h1{
+                     font-size: 2.6rem;
+                     letter-spacing: 10px;
+                     font-weight: bold;
+                     margin-left: 100px;
+                 }
+                .header-section h2{
+                     font-size: 2.3rem;
+                     font-weight: bold;
+                     margin-left: 100px;
+                 }
+                 .about-img img{
+                         height: 225px;
+                 }
+                 .about-header h1{
+                         font-weight: 600;
+                         color: #333333;
+                         margin: 0px;
+                         font-size: 2.5rem;
+                 }
+                 .about-header h4{
+                         font-weight: 300;
+                         color: #333333;
+                         margin: 10px 0px;
+                         font-size: 1.5rem;
+                         letter-spacing: 2px;
+                 }
+                 .about-header p{
+                         color: #bdbdbd;
+                         font-size: 15px;
+                 }
+    }
